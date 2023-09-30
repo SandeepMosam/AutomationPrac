@@ -20,7 +20,7 @@ public class DoubleClick {
 		WebElement Dropdown = driver.findElement(By.name("addresstype"));
 		Select s = new Select(Dropdown);
 		s.selectByValue("category.php?category=testing");
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		
 		driver.findElement(By.xpath("(//a[text()='Selenium Training'])[2]")).click();
 		Thread.sleep(5000);
